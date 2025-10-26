@@ -28,7 +28,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                // Run tests using Maven (adjust if you're using a different testing tool like Gradle)
+                // Run tests using Maven (adjust if you're using a different testing tool like Gradle
                 sh 'mvn test'
             }
         }
